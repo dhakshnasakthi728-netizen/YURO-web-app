@@ -1,0 +1,53 @@
+<!doctype html>
+
+<!-- Launch (/), catalogue (/shop), product, bag, checkout, orders, shops and account are separate SPA routes. -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f3efe7" />
+    <meta
+      name="description"
+      content="YURO is a multi-vendor marketplace for considered objects from independent shops — apparel, home, accessories and footwear, with account order history and cash-on-delivery checkout."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23f3efe7'/><circle cx='32' cy='32' r='25' fill='none' stroke='%236f7d69' stroke-opacity='.4'/><text x='32' y='43' text-anchor='middle' font-family='Georgia,serif' font-size='27' font-weight='600' fill='%232b2d27'>Y</text></svg>"
+    />
+    <title>YURO — Considered pieces from independent shops</title>
+    <script>
+      (function () {
+        try {
+          var stored = JSON.parse(
+            window.localStorage.getItem('yuro.theme.v2') || '{}',
+          );
+          var mode = ['light', 'dark', 'system'].indexOf(stored.mode) >= 0
+            ? stored.mode
+            : 'system';
+          var accent = ['sage', 'champagne', 'terracotta', 'blue'].indexOf(
+            stored.accent,
+          ) >= 0
+            ? stored.accent
+            : 'sage';
+          var dark =
+            mode === 'dark' ||
+            (mode === 'system' &&
+              window.matchMedia('(prefers-color-scheme: dark)').matches);
+          var root = document.documentElement;
+          root.dataset.theme = dark ? 'dark' : 'light';
+          root.dataset.accent = accent;
+          root.style.colorScheme = dark ? 'dark' : 'light';
+          var meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) meta.setAttribute('content', dark ? '#171814' : '#f3efe7');
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.accent = 'sage';
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

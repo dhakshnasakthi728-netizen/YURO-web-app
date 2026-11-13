@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Everyday Linen Shirt",
+    "category": "APPAREL",
+    "price": 1899,
+    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=800&q=85",
+    "description": "An easy everyday shirt with a timeless, relaxed silhouette.",
+    "featured": true,
+    "newArrival": false
+  },
+  {
+    "id": 2,
+    "name": "Minimal Ceramic Vase",
+    "category": "HOME",
+    "price": 1299,
+    "image": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=800&q=85",
+    "description": "A simple sculptural accent for shelves, tables and quiet corners.",
+    "featured": true,
+    "newArrival": false
+  },
+  {
+    "id": 3,
+    "name": "Everyday Leather Bag",
+    "category": "ACCESSORIES",
+    "price": 2499,
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=85",
+    "description": "A versatile everyday bag with understated styling.",
+    "featured": true,
+    "newArrival": false
+  },
+  {
+    "id": 4,
+    "name": "Soft Neutral Cushion",
+    "category": "HOME",
+    "price": 999,
+    "image": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=800&q=85",
+    "description": "A soft accent to bring warmth and texture to your space.",
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": 5,
+    "name": "Classic White Sneakers",
+    "category": "FOOTWEAR",
+    "price": 2199,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=85",
+    "description": "A clean, versatile sneaker for everyday outfits.",
+    "featured": true,
+    "newArrival": false
+  },
+  {
+    "id": 6,
+    "name": "Sculptural Table Lamp",
+    "category": "HOME",
+    "price": 2799,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=85",
+    "description": "Soft ambient lighting with a considered contemporary design.",
+    "featured": true,
+    "newArrival": true
+  },
+  {
+    "id": 7,
+    "name": "Relaxed Cotton Tee",
+    "category": "APPAREL",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=85",
+    "description": "An easy cotton essential for everyday layering.",
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": 8,
+    "name": "Weekend Shoulder Bag",
+    "category": "ACCESSORIES",
+    "price": 1799,
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=85",
+    "description": "A practical carryall with a simple, versatile shape.",
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": 9,
+    "name": "Stoneware Coffee Cup",
+    "category": "HOME",
+    "price": 549,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=800&q=85",
+    "description": "A thoughtfully shaped cup for your daily coffee ritual.",
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": 10,
+    "name": "Classic Sunglasses",
+    "category": "ACCESSORIES",
+    "price": 1499,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=85",
+    "description": "A timeless finishing touch for sunny days.",
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": 11,
+    "name": "Canvas Everyday Tote",
+    "category": "ACCESSORIES",
+    "price": 799,
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=800&q=85",
+    "description": "A lightweight everyday tote for your daily essentials.",
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": 12,
+    "name": "Modern Wall Print",
+    "category": "HOME",
+    "price": 1199,
+    "image": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=800&q=85",
+    "description": "Artwork to bring character to a calm, considered room.",
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": 13,
+    "name": "Minimal Wristwatch",
+    "category": "ACCESSORIES",
+    "price": 3299,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=85",
+    "description": "A refined everyday accessory with a minimal look.",
+    "featured": true,
+    "newArrival": false
+  },
+  {
+    "id": 14,
+    "name": "Soft Knit Sweater",
+    "category": "APPAREL",
+    "price": 2299,
+    "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=800&q=85",
+    "description": "A comfortable knit for relaxed days and cool evenings.",
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": 15,
+    "name": "Everyday Running Shoes",
+    "category": "FOOTWEAR",
+    "price": 2899,
+    "image": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=85",
+    "description": "Comfort-focused shoes for moving through your day.",
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": 16,
+    "name": "Natural Wood Tray",
+    "category": "HOME",
+    "price": 1099,
+    "image": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=800&q=85",
+    "description": "A versatile tray for serving, styling and organising.",
+    "featured": false,
+    "newArrival": true
+  }
+]

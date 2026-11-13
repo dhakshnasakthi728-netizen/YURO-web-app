@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Manrope:wght@300;400;500;600;700&display=swap');
+
+@import './styles/base.css';
+@import './styles/theme.css';
+@import './styles/store.css';
+@import './styles/sections.css';
+@import './styles/commerce.css';
+@import './styles/checkout.css';
+@import './styles/responsive.css';
+@import './styles/motion.css';
+@import './styles/marketplace.css';
+@import './styles/redesign.css';
+@import './styles/launch.css';
+@import './styles/pages.css';
+@import './styles/signature.css';
